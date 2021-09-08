@@ -61,7 +61,7 @@ public class ProductServlet extends HttpServlet {
                 editProduct(req,resp);
                 break;
             case "search":
-//                searchByName(req, resp);
+                searchByName(req, resp);
                 break;
             case "delete":
                 break;
